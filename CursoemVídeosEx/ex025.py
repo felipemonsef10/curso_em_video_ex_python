@@ -1,0 +1,5 @@
+name = input('Digite o seu nome: ')
+nam1 = name.strip()
+nam2 = nam1.upper()
+nam3 = 'SILVA' in (nam2)
+print('Seu nome tem silva? {}'.format(nam3))

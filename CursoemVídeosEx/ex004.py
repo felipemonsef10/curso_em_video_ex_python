@@ -1,0 +1,27 @@
+step1 = input('Digite algo:')
+print('Qual é o seu tipo?', type(step1))
+print('É um número?', step1.isnumeric())
+print('É uma letra?', step1.isalpha())
+print('É maiúsculo?', step1.isupper())
+print('É alfanumérico?', step1.isalnum())
+print('Só é composto por espaços?', step1.isspace())
+print('É minúsculo?', step1.islower())
+
+
+st1 = input('Digite algo:')
+st2 = type(st1)
+st3 = st1.isnumeric()
+st4 = st1.isalpha()
+st5 = st1.isalnum()
+st6 = st1.isspace()
+st7 = st1.isupper()
+st8 = st1.islower()
+print('Qual é o seu tipo? {}'.format(st2))
+print('É um número? {}'.format(st3))
+print('É uma letra? {}'.format(st4))
+print('É maiúsculo? {}'.format(st5))
+print('É alfanumérico? {}'.format(st6))
+print('Só é composto por espaços? {}'.format(st7))
+print('É minúsculo? {}'.format(st8))
+
+
